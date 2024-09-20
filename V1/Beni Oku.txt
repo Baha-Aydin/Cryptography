@@ -1,0 +1,14 @@
+Bu kod, bir metni 8, 16 veya 32 bit uzunluğunda bir anahtar kullanarak şifrelemek ve daha sonra aynı anahtarla bu metni geri çözmek için kullanılıyor. Şimdi kodun nasıl çalıştığını ve kullanımını adım adım açıklayayım.
+
+Kodun başlangıcında, kullanıcıya 3 seçenek sunulur: 8, 16 veya 32 bitlik bir anahtar kullanılması içindir.
+Kullanıcıdan şifrelemek istediği metin girmesi istenir.
+ord(c) her karakterin ASCII kodunu alır ve bu kod, bit seviyesinde XOR (^) işlemi ile anahtar ile değiştirilir. Böylece karakterler şifrelenmiş hale gelir.
+Her adım consol da gösterilmiş ve info.txt içine kaydedilmiştir.
+
+Temel fikir nedir?
+Bit Manipülasyonu oluşturmaktır. 
+XOR işlemi uygulanmış, karakterlerin bit seviyesi değiştirilmesi sağlanmıştır.
+
+SyntaxError: encoding problem oluşmaması için " # -*- coding: utf-8 -*- " kodu kullanılmıştır.
+
+time modülü kullanılmıştır. Consoldaki her işlemin iyice okunması için.

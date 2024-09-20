@@ -1,0 +1,1 @@
+"Cryptography" isimli klasör içinde bulunan " V1 " isimli klasör içinde XOR işlemi uygulanarak şifreleme metodu kullanılmıştır. " V2 " isimli klasör içinde ise 256-Bit Kaydırma ve XOR İşlemi beraber kullanılmıştır.

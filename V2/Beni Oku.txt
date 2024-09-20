@@ -1,0 +1,27 @@
+Kodun Çalışma Mantığı
+Bir metni 256-bitlik bir anahtar kullanarak şifrelemek ve ardından aynı anahtarla şifreyi çözmek için tasarlanmıştır. Şifreleme ve şifre çözme işlemleri sırasında bit seviyesinde manipülasyonlar yapar. Bu, metindeki her karakterin hem XOR işlemiyle hem de kaydırma işlemleriyle değiştirilmesini sağlanır. İşlemler, şifrelenmiş metnin çözülmesiyle orijinal metnin geri elde edilmesine olanak tanır.
+
+Kod Adımlarının Açıklaması
+256-Bit Kaydırma ve XOR İşlemi (bit_manipulasyonu_256):
+Her bir metin bloğu, karakter karakter işlenir.
+Karakterin ASCII değeri (Unicode), anahtar bloğundaki ilgili karakterle XOR işlemine tabi tutulur.
+XOR sonucu elde edilen karakter, hem sola hem de sağa belirli bit sayıları kadar kaydırılır.
+Sonuç olarak, şifrelenmiş karakter elde edilir.
+
+256-Bit Çözümleme (bit_manipulasyonunu_geri_al_256):
+Şifrelenmiş metin bloğu çözülürken, kaydırma işlemi tersine çevrilir.
+Ardından, tersine çevrilen karakterler anahtar ile XOR işlemine tabi tutularak orijinal karakter elde edilir.
+
+Metni 256-Bit Şifreleme (metni_sifrele_256):
+Metin 16 karakterlik bloklara bölünür.
+Her blok, bit_manipulasyonu_256 fonksiyonu ile şifrelenir.
+Şifrelenmiş bloklar birleştirilir ve sonuçta şifrelenmiş metin elde edilir.
+
+Metni 256-Bit Şifre Çözme (metni_desifrele_256):
+Şifrelenmiş metin, 16 karakterlik bloklara bölünür.
+Her blok, bit_manipulasyonunu_geri_al_256 fonksiyonu ile çözülür.
+Çözülmüş bloklar birleştirilir ve orijinal metin elde edilir.
+
+Rastgele 256-Bit Anahtar Oluşturma (rastgele_anahtar_olustur):
+32 karakter uzunluğunda bir anahtar (256-bit) rastgele oluşturulur.
+Karakter seti, harfler, sayılar ve semboller içerir.
