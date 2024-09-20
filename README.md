@@ -1,6 +1,6 @@
 Cryptography Projesi
 
-Bu proje, "Cryptography" isimli klasör içinde bulunan "V1" isimli klasör ile "V2" isimli klasörü içermektedir.
+Bu proje, "Cryptography" isimli klasör içinde bulunan "V1" isimli klasör ile "V2" isimli klasörü içermektedir. Proje " Python " ile oluşturulmuştur.
 
 V1 Klasörü: XOR işlemi uygulanarak şifreleme metodu kullanılmıştır. Bu klasör, temel şifreleme tekniklerini anlamak ve uygulamak için tasarlanmıştır.
 
